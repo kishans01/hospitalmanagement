@@ -10,7 +10,7 @@ import lombok.Data;
 @Data
 public class Medicine {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long medicineId;
 
     private String medicineName;
